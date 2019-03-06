@@ -13,7 +13,7 @@ Glad you asked:
 ## K now what, how do I use it
 Great questions. You're gonna wanna hit those routes, so we can use something like [Postman](https://www.getpostman.com/downloads/) to simulate making all kinds requests to our server. Let's start by hitting the route for `POST /badway` (PS these are POST routes because those usually have a body that we'd wanna do something with):
 
-![post-request](./postman.jpg)
+![post-request](./postman.png)
 
 Now go check your server console. You should see a log of the body we had to parse manually.
 
