@@ -15,6 +15,7 @@ app.post('/badway', (req, res) => {
 
   // once all the data for our request is sent, run this function:
   req.on("end", () => {
+    console.log('before parsing: ', rawBody);
     // the `rawBody` comes back as something called a 'buffer'
     // which is basically unreadable nonsense to humans
     // so we call `toString()` to translate it into
